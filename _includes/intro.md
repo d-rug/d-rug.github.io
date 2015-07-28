@@ -1,12 +1,3 @@
----
-layout: default
-title: home
----
-
-<article class="row">
-  <section class="small-12 large-8 columns page-content">
-
-
 ***"The sweetest R-help group this side of the Mississippi."***
 
 Welcome to the Davis R Users' Group (DRUG)!  We are a community of R users at UC Davis who support each other in using R for science. Our focus is providing a space for beginning and intermediate users to learn from each other.
@@ -37,16 +28,6 @@ We're fortunate have sponsorship from [Revolution Analytics](http://www.revoluti
  - After you install R, I recommend you install [RStudio](http://www.rstudio.org/).  RStudio is a program that makes R easier to use, and is being widely adopted by both beginning and advanced R users. Importantly, it works across most computer platforms, and has features that make it easy to [share your work](http://rpubs.com/), collaborate, and do [proper version control](http://rstudio.org/docs/version_control/overview). 
  - [Google](http://www.google.com) is your first stop for most questions.  You'll most likely reach most of the resources below while searching for your specific question.
  - Our regular R work sessions and [listserv](https://groups.google.com/d/forum/davis-rug) are great places to ask questions, especially if you are not sure what you are looking for.
-
-### D-RUG tutorials from our meetings
-
-Sometimes D-RUG members put together useful resources and tutorials for our meetings which we post on the blog under the "D-RUG" tag:
-
-<ul>
-    {% for post in site.tags.D-RUG  %}
-<li><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-</ul>
 
 ### Web Resources
 
@@ -112,8 +93,3 @@ There are a few courses at UC Davis that use R.
 
  - Here is [a page compiling stats and modeling courses](stats.html) that Ecology students can take at UC Davis
  - The UC Davis Department of Statistics has a [consulting service](http://anson.ucdavis.edu/stats-lab/services) that is free for disseration-related statistical advice.  You get a 1-hour meeting with a statistician to discuss your research and they will send you a write-up of their recommendations.
-
-
-</section>
-    {% include asides/recent_posts.html %}
-</article>
