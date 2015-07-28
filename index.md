@@ -114,6 +114,6 @@ There are a few courses at UC Davis that use R.
  - The UC Davis Department of Statistics has a [consulting service](http://anson.ucdavis.edu/stats-lab/services) that is free for disseration-related statistical advice.  You get a 1-hour meeting with a statistician to discuss your research and they will send you a write-up of their recommendations.
 
 
-
+</section>
     {% include asides/recent_posts.html %}
 </article>
