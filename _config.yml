@@ -7,14 +7,13 @@ keywords: R, Study Group, Davis, UC Davis
 description: > # this means to ignore newlines until "baseurl:"
   Website for the Davis R Users Group
 
-baseurl: /
-url: https:/d-rug.github.io
+url: https:/d-rug.github.io/
 
-header: no
-# header_sm: images/banner-small.jpg
-# header_med: images/banner-med.jpg
-#header_large: images/banner-large.jpg
-# header_xl: images/banner-xl.jpg
+header: yes
+header_sm: images/banner-small.jpg
+header_med: images/banner-med.jpg
+header_large: images/banner-large.jpg
+header_xl: images/banner-xl.jpg
 
 
 # Exclude our ruby stuff
@@ -23,17 +22,17 @@ exclude: [.bundle, bin, vendor, Gemfile, Gemfile.lock, Rakefile, s3_website.yml,
 
 # Build settings
 markdown: kramdown
-kramdown:
-  input: GFM
+# kramdown:
+#  input: GFM
 
 destination: _site
 
 gems:
-  - jekyll-sitemap
-  - jekyll-feed
+ - jekyll-sitemap
+#  - jekyll-feed
 
-feed:
-  path: atom.xml
+#feed:
+#  path: atom.xml
   
 # Compress our Css
 #sass:
