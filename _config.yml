@@ -1,20 +1,20 @@
 # Site settings
-name: Slim Pickins Jekyll Theme
-email: 
-author: Chrisanthropic
+name: Davis R Users Group
+email: mrowlan1@gmail.com
+author: Myfanwy Johnson and Noam Ross
 
-keywords: jekyll, jekyll theme, jekyll framework, stuffthings
+keywords: R, Study Group, Davis, UC Davis
 description: > # this means to ignore newlines until "baseurl:"
-  Witty description here.
+  Website for the Davis R Users Group
 
-baseurl: /slim-pickins-jekyll-theme
-url: https://chrisanthropic.github.io
+baseurl: /
+url: https:/d-rug.github.io
 
-header: yes
-header_sm: images/banner-small.jpg
-header_med: images/banner-med.jpg
-header_large: images/banner-large.jpg
-header_xl: images/banner-xl.jpg
+header: no
+# header_sm: images/banner-small.jpg
+# header_med: images/banner-med.jpg
+#header_large: images/banner-large.jpg
+# header_xl: images/banner-xl.jpg
 
 
 # Exclude our ruby stuff
