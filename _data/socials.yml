@@ -1,20 +1,13 @@
-- title: "feed"
-  href: "https://chrisanthropic.github.io/slim-pickins-jekyll-theme/atom.xml"
+- title: "mail"
+  href: "https://groups.google.com/forum/#!forum/davis-rug"
 
-- title: "googleplus"
-  href: "#"
+- title: "rss"
+  href: "https://d-rug.github.io/atom.xml"
 
-- title: "facebook"
-  href: "#"
-  
-- title: "tumblr"
-  href: "#"
-  
 - title: "twitter"
-  href: "https://twitter.com/"
+  href: "https://twitter.com/davis_r_users"
 
 - title: "github"
-  href: "https://github.com/chrisanthropic/slim-pickins-jekyll-theme"
+  href: "https://github.com/d-rug/d-rug.github.io/"
 
-- title: "linkedin"
-  href: "https://www.linkedin.com/in/ctarwater"
+
