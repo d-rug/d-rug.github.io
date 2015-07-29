@@ -10,7 +10,7 @@ description: > # this means to ignore newlines until "baseurl:"
 #baseurl: 
 url: https:/d-rug.github.io/
 
-header: yes
+header: no
 header_sm: images/banner-small.jpg
 header_med: images/banner-med.jpg
 header_large: images/banner-large.jpg
