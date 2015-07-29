@@ -1,3 +1,5 @@
+# *This site is an alpha test of our website update*.  For the current D-RUG website is found at <http://www.noamross.net/davis-r-users-group.html>.
+
 ***"The sweetest R-help group this side of the Mississippi."***
 
 Welcome to the Davis R Users' Group (DRUG)!  We are a community of R users at UC Davis who support each other in using R for science. Our focus is providing a space for beginning and intermediate users to learn from each other.
