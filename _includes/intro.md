@@ -1,4 +1,4 @@
-# *This site is an alpha test of our website update*.  For the current D-RUG website is found at <http://www.noamross.net/davis-r-users-group.html>.
+# *This site is an alpha test of our website update*.  The current D-RUG website is found at <http://www.noamross.net/davis-r-users-group.html>.
 
 ***"The sweetest R-help group this side of the Mississippi."***
 
