@@ -2,14 +2,17 @@
   href: "/"
 
 - title: "getting started"
-  href: "/resources/"
+  href: "/getting-started.html"
+
+- title: "r at davis"
+  href: "/r-at-davis.html"
 
 - title: "lessons"
   href: "/lessons/"
 
 - title: "blog"
   href: "/blog/"
-   
+
 - title: "links"
   external-subcategories:
     - subtitle: "Davis Data Science Initiative"
