@@ -22,7 +22,7 @@ Welcome to the Davis R Users' Group (DRUG)!  We are a community of R users at UC
  
 We're fortunate have sponsorship from [Revolution Analytics](http://www.revolutionanalytics.com/) for our snacks and speaker prizes.
 
-[![](RevolutionAnalytics_logo_374x87_trans.png)](http://www.revolutionanalytics.com/)
+[![](/images/RevolutionAnalytics_logo_374x87_trans.png)](http://www.revolutionanalytics.com/)
 
 </section>
     {% include asides/recent_posts.html %}
