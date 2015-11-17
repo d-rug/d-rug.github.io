@@ -4,14 +4,14 @@ author: "Grace Charles"
 tags: [D-RUG, R, SEMs]
 date: "15-05-20 11:30:00"
 layout: post
---- 
+---
 
 Last Friday at the [Davis R Users' Group](http://www.noamross.net/davis-r-users-group.html), [Grace Charles](https://scholar.google.com/citations?user=kc_fImQAAAAJ) gave a presentation on structural equation modeling in R using the [**Lavaan**](http://cran.r-project.org/web/packages/lavaan/index.html) package.  Here's the video and her slides.  We've also posted Grace's script from the presentation as a gist [here](https://gist.github.com/noamross/9d5ae9680fe8357ccd94).  More resources that Grace mentioned in her talk below.
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NSoZdNszQgw?start=477" frameborder="0" allowfullscreen></iframe>
 
-<iframe src="https://www.slideshare.net/slideshow/embed_code/key/3PprpqXobCwNya" width="476" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/3PprpqXobCwNya" width="576" height="500"></iframe>
 
 ## Resources
 
