@@ -11,7 +11,7 @@ Last Friday at the [Davis R Users' Group](http://www.noamross.net/davis-r-users-
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NSoZdNszQgw?start=477" frameborder="0" allowfullscreen></iframe>
 
-<iframe src="https://www.slideshare.net/slideshow/embed_code/key/3PprpqXobCwNya" width="576" height="500"></iframe>
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/3PprpqXobCwNya" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/noamross/sem-in-r" title="An introduction to structural equation models in R using the Lavaan package" target="_blank">An introduction to structural equation models in R using the Lavaan package</a> </strong> from <strong><a href="//www.slideshare.net/noamross" target="_blank">Noam Ross</a></strong> </div>
 
 ## Resources
 
