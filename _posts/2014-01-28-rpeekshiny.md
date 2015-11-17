@@ -4,7 +4,7 @@ author: "Noam Ross"
 tags: [R, D-RUG, shiny]
 date: "14-01-28 09:41:36"
 layout: post
---- 
+---
 
 
 Yesterday at the [Davis R User's
@@ -15,8 +15,11 @@ apps with R. Here are his slides. Ryan includes a bunch of links to
 examples and tutorials, as well as his own [thermohydrographs
 app](http://aquapeek.shinyapps.io/thermohydrographs/):
 
-<div class="rpres" style="padding-bottom: 88%;"><iframe src="images/DRUG_shiny_2014-01-27_presentation.html"
-frameborder="0" marginwidth="0" marginheight="0"></iframe></div>
+# <div class="rpres" style="padding-bottom: 100%;">
+<iframe src="images/DRUG_shiny_2014-01-27_presentation.html"
+frameborder="0" marginwidth="0" marginheight="0"></iframe>
+
+# </div>
 
 [^1]: Thanks to [Revolution
     Analytics](http://www.revolutionanalytics.com/) for another year of
