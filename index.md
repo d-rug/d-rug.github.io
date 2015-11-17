@@ -17,12 +17,12 @@ Welcome to the Davis R Users' Group (DRUG)!  We are a community of R users at UC
     ***For Fall Quarter 2015, weekly work sessions will be be held Wednesdays 10AM-12PM in Wickson Hall Room 2120***
 
  - ***Join the [mailing list](https://groups.google.com/d/forum/davis-rug)***: The mailing list is an online supplement to our in-person work sessions.
- 
+
  - ***Use the resources below***: We've compiled a list of resources to help you get started using R and find answers to your questions.
- 
+
 We're fortunate have sponsorship from [Revolution Analytics](http://www.revolutionanalytics.com/) for our snacks and speaker prizes.
 
-[![](RevolutionAnalytics_logo_374x87_trans.png)](http://www.revolutionanalytics.com/)
+[![(RevolutionAnalytics_logo_374x87_trans.png)](http://www.revolutionanalytics.com/)
 
 </section>
     {% include asides/recent_posts.html %}
