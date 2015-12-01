@@ -28,8 +28,8 @@ There are plenty of very sleek shiny apps out there that you can check out, and 
 
 # Presentation and Repository Links:
 
-You can view Ryan's presentation on YouTube here: <https://www.youtube.com/watch?v=L0SLp0eHJ4k>
+You can view Ryan's presentation below, or on YouTube here: <https://www.youtube.com/watch?v=L0SLp0eHJ4k>
 
 Download the GitHub Repository here (includes the .Rmd presentation): <https://github.com/ryan-ucd/Davis-RUG-Pres>
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/L0SLp0eHJ4k" frameborder="0" allowfullscreen></iframe>
