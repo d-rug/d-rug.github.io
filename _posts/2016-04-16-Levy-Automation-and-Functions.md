@@ -1,5 +1,5 @@
 ---
-title: "Automation, lapply, and custom functions in R"
+title: "Michael Levy on Automation, lapply, and Custom Functions in R"
 author: "Michael Levy"
 tags: [D-RUG, R, functions, automation]
 date: "16-04-16 13:00:00"
