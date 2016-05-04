@@ -10,6 +10,9 @@
 - title: "Past Presentations"
   href: "/pastpresentations/"
 
+- title: "Upcoming Presentations"
+  href: "/Upcoming-Presentations.html"
+
 - title: "links"
   external-subcategories:
     - subtitle: "Davis Data Science Initiative"
