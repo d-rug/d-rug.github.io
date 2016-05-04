@@ -39,7 +39,7 @@
 	/* Layout */
 	line-height: $navbar-height;
 	display: block;
-	padding: 0 22px;
+	padding: 0 18px;
 	border-color: #aaa;
 
 	/* Typography */
@@ -49,7 +49,7 @@
 	color: $secondary-color;
 	text-transform: uppercase;
 	text-decoration: none;
-	
+
 	/* Transitions */
 	-webkit-transition: color .2s ease-in, border-top-color .2s ease-in;
 	-ms-transition: color .2s ease-in, border-top-color .2s ease-in;
@@ -140,7 +140,7 @@
 	text-decoration: none;
 	color: $secondary-color;
 	font-weight: 400;
-	
+
 	/* Background & effects */
 	background: $navbar-color;
 	-webkit-transition: color .2s ease-in, border-left-color .2s ease-in;;
@@ -262,14 +262,14 @@
 	#hideMenu>a::after, #hideMenu>a::before {
 		border-color: $secondary-color;
 	}
-	
+
 	.navbar {
 	  background-color: $navbar-color;
 	  height: 44px;
 	  display: inline;
 	}
- 
+
 	#nav>.right.primary-nav  {
 	  background-color: lighten($navbar-color, 10%);
 	}
-} 
+}
