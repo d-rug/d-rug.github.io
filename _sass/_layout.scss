@@ -1,6 +1,6 @@
 // Wrap
 .wrap {
-  max-width: 1920px;
+  max-width: 2050px;
   min-height: 100%;
   display: block;
   margin-bottom: -$footer-height;
@@ -11,7 +11,7 @@
 // Styling for mobile devices
 @media screen and (max-width: 768px) {
   .wrap {
-    margin-bottom: -$footer-height * 2.8; 
+    margin-bottom: -$footer-height * 2.8;
   }
 }
 
@@ -72,7 +72,7 @@
 }
 
 .site-footer, .wrap:after {
-  height: $footer-height; 
+  height: $footer-height;
 }
 .site-footer {
   background: $footer-color;
@@ -81,9 +81,9 @@
 // Styling for mobile devices
 @media screen and (max-width: 768px) {
   .site-footer, .wrap:after {
-    height: $footer-height * 2.8; 
+    height: $footer-height * 2.8;
   }
-  
+
   .recent-posts ul li {
     margin-bottom: 2em;
   }
