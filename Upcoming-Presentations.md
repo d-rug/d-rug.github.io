@@ -11,7 +11,7 @@ permalink: /Upcoming-Presentations.html
 <br>
 <br>
 
- - May 23, 2016: Myfanwy Johnston on Slidify
+ - June 6, 2016: Myfanwy Johnston on Slidify
 
 
 </section>
