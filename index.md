@@ -20,10 +20,6 @@ Welcome to the Davis R Users' Group (DRUG)!  We are a community of R users at UC
 
  - ***Use the resources on this site***: We've compiled a list of resources to help you get started using R and find answers to your questions.  Click on the "Getting Started" or "Past Presentation" tabs above to check them out.
 
-We're fortunate have sponsorship from [Revolution Analytics](http://www.revolutionanalytics.com/) for our snacks and speaker prizes.
-
-<img src="http://www.revolutionanalytics.com/sites/all/themes/rva_theme/img/logo.png">
-
 </section>
     {% include asides/recent_posts.html %}
 </article>
