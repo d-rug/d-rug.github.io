@@ -13,7 +13,5 @@ D-RUG Co-Coordinator [Myfanwy Johnston](www.voovarb.com) gave a presentation on 
 Here's the video!  The GitHub repo for this talk can be found [here](https://github.com/Myfanwy/SlidifyPresentation).  
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=An6HwO8ZVmw" frameborder="0" allowfullscreen></iframe>
-
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/An6HwO8ZVmw" frameborder="0" allowfullscreen></iframe>
 
