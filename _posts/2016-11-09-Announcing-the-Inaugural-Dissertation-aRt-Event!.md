@@ -6,9 +6,13 @@ date: "16-11-18 13:00:00"
 layout: post
 ---
 
+<br>
+
 # Come to our inaugural dissertation aRt event!  
 
+<br>
 Working in R?  Can’t get any analyses done because you’re too distracted by ideas for gorgeous plots?  Sounds like you could use a beer, some snacks and a few dedicated hours to generate beautiful aRtwork to share for a good cause!  Join us!
+<br>
 
 ## Friday, November 18, 2016, 5:30 - 9:00pm
 ## 508 2nd St, Suite 208, Davis
