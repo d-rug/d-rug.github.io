@@ -1,5 +1,5 @@
 ---
-title: "Ryank Peek on RMarkdown and RNotebooks"
+title: "Ryan Peek on RMarkdown and RNotebooks"
 author: "Ryan Peek"
 tags: [D-RUG, R, presentations, Rmarkdown, rnotebooks]
 date: "16-10-13 13:00:00"
