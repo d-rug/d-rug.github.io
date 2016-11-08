@@ -11,7 +11,7 @@ layout: post
 Working in R?  Can’t get any analyses done because you’re too distracted by ideas for gorgeous plots?  Sounds like you could use a beer, some snacks and a few dedicated hours to generate beautiful aRtwork to share for a good cause!  Join us!
 
 ## Friday, November 18, 2016, 5:30 - 9:00pm
-### 508 2nd St, Suite 208, Davis
+## 508 2nd St, Suite 208, Davis
 
 Hosted by the Davis R-Users Group and [Data Carpentry](www.datacarpentry.org).  Bring your laptop, some data from your research to visualize, and your creative pants.  We'll provide beer & refreshments, good tunes, power outlets, and help with R.  Helpers will be ggplot2- and base R-bilingual :).
 
@@ -24,7 +24,7 @@ We're excited to see what we all come up with!
 <br>
 <br>
 
-####The Fine Print
+##The Fine Print
 
 The images we create will be available to the public as different kinds of art products, so if you don't want to use your own data, that's fine!  The idea is not so much to share scientific results, but to generate aesthetically pleasing images from data that can be sold for a good cause. If you would like to use your own data but don't know where to start, we can help you randomize or anonymize a subset that would be appropriate to use to generate abstract images.
 
