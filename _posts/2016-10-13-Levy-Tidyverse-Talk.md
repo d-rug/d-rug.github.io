@@ -1,5 +1,5 @@
 ---
-title: "Tidyverse Tutorial"
+title: "Michael Levy's Tidyverse Tutorial"
 author: "Michael Levy"
 tags: [D-RUG, R, presentations, html5]
 date: "16-10-13 13:00:00"
