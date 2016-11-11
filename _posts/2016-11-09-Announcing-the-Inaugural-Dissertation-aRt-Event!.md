@@ -17,9 +17,9 @@ Working in R?  Can’t get any analyses done because you’re too distracted by 
 # Friday, November 18, 2016, 5:30 - 9:00pm
 # 508 2nd St, Suite 208, Davis
 
-Hosted by the Davis R-Users Group and [Data Carpentry](www.datacarpentry.org).  Bring your laptop, some data from your research to visualize, and your creative pants.  We'll provide beer & refreshments, good tunes, power outlets, and help with R.  Helpers will be ggplot2- and base R-bilingual :).
+Hosted by the Davis R-Users Group and [Data Carpentry](http://www.datacarpentry.org/).  Bring your laptop, some data from your research to visualize, and your creative pants.  We'll provide beer & refreshments, good tunes, power outlets, and help with R.  Helpers will be ggplot2- and base R-bilingual :).
 
-We'll be uploading all the images to our nascent [society6 artist page](www.society6.com/davisrusersgroup).  Proceeds from sales will go to a charity fund at Data Carpentry to bring workshops to underrepresented regions and groups.
+We'll be uploading all the images to our nascent [society6 artist page](https://society6.com/davisrusersgroup).  Proceeds from sales will go to a charity fund at Data Carpentry to bring workshops to underrepresented regions and groups.
 
 For some inspiration, see the excellent examples curated by [Kara Woo](www.twitter.com/kara_woo) and [Erika Mudrak](www.twitter.com/ErikaMudrak) over at [accidental aRt](accidental-art.tumbler.com).
 
