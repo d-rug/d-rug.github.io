@@ -6,7 +6,7 @@ date: "17-01-19 13:00:00"
 layout: post
 ---
 
-Back in November of 2016, D-RUG Co-Coordinator [Myfanwy Johnston](www.voovarb.com) gave a presentation on unit testing in R.  From Myfanwy:
+Back in November of 2016, D-RUG Co-Coordinator [Myfanwy Johnston](http://www.voovarb.com) gave a presentation on unit testing in R.  From Myfanwy:
 
    *"This is a short presentation about unit testing (and really code testing in general).  Testing is an incredibly important aspect of coding that often gets skipped over by us non-software development types.  My goal is for you to walk away with a good understanding of the thinking process behind good testing.  I also hope to convince you that testing is not only in your best interest, but is also waaaay easier to integrate with your existing workflow than you might think."*
 
