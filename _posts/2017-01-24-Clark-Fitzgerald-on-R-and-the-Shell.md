@@ -2,7 +2,7 @@
 title: "Clark Fitzgerald on R and the Shell"
 author: "Clark Fitzgerald"
 tags: [D-RUG, R, presentations, command line, shell]
-date: "17-01-19 13:00:00"
+date: "17-01-24 13:00:00"
 layout: post
 ---
 
