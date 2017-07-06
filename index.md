@@ -12,7 +12,7 @@ Welcome to the Davis R Users' Group (D-RUG)!  We are a community of R users at U
 
 ***Come to our weekly work sessions!  For Spring Quarter 2017 and likely through the summer, our weekly work sessions will be be held Tuesdays from 10am-12pm in 360 Shields (the Data Science Space on the third floor of Shields Library).***
 
-<iframe src="images/R_DSI_map.pdf" width="100%" height="700px"></iframe>
+![](images/R_DSI_map.png)
 
 This is the core purpose of DRUG.  We have weekly, 2-hour work sessions where people bring their computers to work on their own projects, and ask each other questions as needed.  We have no TAs - just mutual support in R, statistics, and related topics.  Group members sometimes give short presentations on R methods and best practices or to get feedback on their projects.
 
