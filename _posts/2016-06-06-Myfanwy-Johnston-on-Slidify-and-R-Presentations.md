@@ -6,7 +6,7 @@ date: "16-06-06 13:00:00"
 layout: post
 ---
 
-D-RUG Co-Coordinator [Myfanwy Johnston](www.voovarb.com) gave a presentation on presentations in R.  From Myfanwy:
+D-RUG Co-Coordinator [Myfanwy Johnston](https://myfanwy.github.io) gave a presentation on presentations in R.  From Myfanwy:
 
    *"You've probably heard that you can make slideshows from within R and RStudio - and you can - but which program should you use?  Rpres?  Slidy?  Beamer?  What are all the options, and why should you use one over another?  This presentation will clear up questions you might have about the R slideshow ecosystem, as well as offer an overview of Slidify, a package for making  reproducible slideshows from within R."*
 
