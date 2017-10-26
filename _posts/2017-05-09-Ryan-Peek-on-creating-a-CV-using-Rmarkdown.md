@@ -20,5 +20,3 @@ For our first presentation of the 2017 Spring Quarter, D-RUG coordinator and UCD
  - Make sure you have a LaTex distribution installed (see [here](http://www.latex-project.org/get/), note: it is a big file and will take a little time to install the first time)
  - Make sure in your RStudio global settings you have pdfLaTex selected in the Sweave options (see [here](https://support.rstudio.com/hc/en-us/articles/200532257-Customizing-LaTeX-Options) for more info on checking this)
  - The RMarkdown (`.Rmd`) file (in my repo, I have a few versions for different purposes) needs to be in the same place as the `.tex` file, which is the template that is used to render the document into a nice PDF.
-
-Unfortunately this presentation wasn't recorded, but materials are all available on github [here](https://github.com/clarkfitzg/junkyard/tree/master/rshell).

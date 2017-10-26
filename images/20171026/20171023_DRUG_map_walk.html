@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Introduction to functional programming with map &amp; walk</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Brandon Hurr" />
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/remark-css/fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Introduction to functional programming with map &amp; walk
+## 🐱<br/>with purrr
+### Brandon Hurr
+### 2017/10/26
+
+---
+
+
+This talk based heavily upon the following sources
+ - [Jenny Bryan's purrr tutorial](https://jennybc.github.io/purrr-tutorial/index.html)
+ - [Hadley Wickham and Garrett Grolemund's R4DS](http://r4ds.had.co.nz/)
+ - [Charlotte and Hadley Wickham's Datacamp Course](https://campus.datacamp.com/courses/writing-functions-in-r/)
+ - [Charlotte Wickham's purrr tutorial](https://github.com/cwickham/purrr-tutorial)
+
+---
+
+
+
+# Outline
+
+- Basic data structures in R
+
+- Why and when to write a function in R
+
+- purrr::map
+
+- purrr::walk
+
+---
+class: inverse, center, middle
+
+# Data structures in R
+
+---
+# Two types of vectors
+
+Atomic
+
+Lists
+
+---
+
+# Atomic Vectors
+
+Simple and strict; one data type at a time
+- Used a lot
+  - Logical 
+  - Integer
+  - Real (double, float)
+  - Character
+
+- Skipping these 
+  - Complex
+  - Raw
+
+
+--
+
+- What about factor? 
+  - Integer vector with labels (levels)
+
+--
+
+Each type has its own NA
+
+
+`NA` (logical), `NA_integer_`, `NA_real_`, `NA_character`, `NA_complex_`, `0` (raw)
+
+
+---
+
+# Lists
+List can contain any of the atomic vectors AND lists!
+.pull-left[
+
+```r
+# a simple list
+a &lt;- list(a = 1:3
+        , b = "a string"
+        , c = pi
+        , d = list(-1, -5))
+```
+
+
+Data frames are special types of lists.
+
+
+]
+  
+.pull-right[
+![](figures/lists-example.png)
+
+Image credit: [R4DS](http://r4ds.had.co.nz/lists.html)
+]
+
+---
+class: center, middle
+
+# NULL
+
+
+--
+`NULL` is the absence of a vector
+
+
+---
+
+class: inverse, center, middle
+
+# Notebook Time
+Vectors and data types
+
+---
+
+# Subsetting Lists/Dataframes/Tibbles
+
+Three main ways to subset a List/df/tibble
+- `[` returns a list/df/tibble with those elements
+  - `mtcars[1]`
+  - `mtcars["mpg"]`
+- `[[` returns an element from list/df/tibble
+  - `mtcars[[1]]`
+  - `mtcars[["mpg"]]`
+- `$` same as `[[`, only for name
+  - `mtcars$mpg`
+
+There are many caveats and ways to do things:
+http://adv-r.had.co.nz/Subsetting.html
+
+Tibbles are strict about what they return. df's are less so: 
+https://cran.r-project.org/web/packages/tibble/vignettes/tibble.html
+
+---
+
+class: inverse, center, middle
+
+# Notebook Time
+Subsetting data
+
+---
+# Functions in R
+
+
+```r
+function01 &lt;- function(argument1, argument2, ...) {
+  #body where you do stuff
+  #output
+}
+```
+
+- Assignment `function1 &lt;-`
+- Function function `function() {}`
+- formals or arguments
+- Body
+  - Code that solves your problem
+- Output
+  - last object is returned
+  - can return something earlier with `return()`
+
+Key realization: Functions are just like other R objects. You can use them in other functions.
+
+http://adv-r.had.co.nz/Functions.html#function-components
+
+
+---
+# Why write a function?
+
+```r
+#Simple dataframe
+df &lt;- data.frame(
+  a = rnorm(10),
+  b = rnorm(10),
+  c = rnorm(10),
+  d = rnorm(10)
+)
+# What are we doing here?
+df$a &lt;- (df$a - min(df$a, na.rm = TRUE)) /  
+  (max(df$a, na.rm = TRUE) - min(df$a, na.rm = TRUE))
+df$b &lt;- (df$b - min(df$b, na.rm = TRUE)) /  
+  (max(df$b, na.rm = TRUE) - min(df$b, na.rm = TRUE))
+df$c &lt;- (df$c - min(df$a, na.rm = TRUE)) /  
+  (max(df$c, na.rm = TRUE) - min(df$c, na.rm = TRUE))
+df$d &lt;- (df$d - min(df$d, na.rm = TRUE)) /  
+  (max(df$d, na.rm = TRUE) - min(df$d, na.rm = TRUE))
+```
+--
+No shame in doing this because it works, but it's error prone and lengthy. 
+
+---
+
+# How many repeats is too many?
+
+Hadley's rule of thumb is that if you've got 3 copies of the same code then it's time to write a function. 
+--
+(I think that is reasonable.)
+
+
+
+--
+Also consider if you might reuse this again in another place. That counts as a repeat too!
+
+---
+# Simplify and functionalize
+
+Follow along in the notebook if you want.
+
+
+```r
+df$d &lt;- (df$d - min(df$d, na.rm = TRUE)) /  
+  (max(df$d, na.rm = TRUE) - min(df$d, na.rm = TRUE))
+```
+
+--
+
+```r
+# pull out what's common, these are your arguments
+x &lt;- (x - min(x, na.rm = TRUE)) /  
+  (max(x, na.rm = TRUE) - min(x, na.rm = TRUE))
+```
+
+--
+
+```r
+#simplify more and refactor if that makes sense
+x &lt;- (x - min(x, na.rm = TRUE)) /  
+  diff(range(x, na.rm = TRUE))
+```
+
+--
+
+```r
+# rewrite as a function
+rescale_0_1 &lt;- function(x) {
+  (x - min(x, na.rm = TRUE)) /  
+  diff(range(x, na.rm = TRUE))
+}
+```
+
+---
+
+# Test it
+
+Use simple data that you know what the output should be.
+
+
+```r
+rescale_0_1 &lt;- function(x) {
+  (x - min(x, na.rm = TRUE)) /  
+  diff(range(x, na.rm = TRUE))
+}
+
+testvec &lt;- 1:11
+testvec
+```
+
+```
+##  [1]  1  2  3  4  5  6  7  8  9 10 11
+```
+
+```r
+rescale_0_1(testvec)
+```
+
+```
+##  [1] 0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0
+```
+Does the result make sense? 
+
+---
+
+# Put it to work for you
+
+
+```r
+df &lt;- data.frame(a = rnorm(10), b = rnorm(10), c = rnorm(10), d = rnorm(10))
+rescale_0_1 &lt;- function(x) {
+  (x - min(x, na.rm = TRUE)) /  
+  diff(range(x, na.rm = TRUE))
+}
+out &lt;- df #make a copy so we don't have to remake df again
+out$a &lt;- rescale_0_1(df$a) # scale column a
+out$b &lt;- rescale_0_1(df$b) # scale column b
+out$c &lt;- rescale_0_1(df$c) # scale column c
+out$d &lt;- rescale_0_1(df$d) # scale column d
+out # let's look
+```
+
+```
+##            a         b         c         d
+## 1  0.8400734 0.9507664 1.0000000 1.0000000
+## 2  0.7915186 0.6173473 0.4914426 0.1723300
+## 3  0.0000000 0.4819506 0.5074896 0.8082126
+## 4  1.0000000 0.0000000 0.4260247 0.0605588
+## 5  0.3065831 0.5778367 0.2392321 0.3879151
+## 6  0.9539471 0.8935948 0.0000000 0.7400604
+## 7  0.6616978 0.8222903 0.3957532 0.3156326
+## 8  0.8060294 0.6589044 0.2782888 0.6458119
+## 9  0.6265262 0.7095200 0.3968583 0.0000000
+## 10 0.9934145 1.0000000 0.6382199 0.7130856
+```
+
+---
+
+# Function Writing Best Practices
+
+- Make sure it does what you want it to do
+
+- Use good names
+  - functions do stuff; use verbs
+  - arguments are things; use nouns
+  - don't overwrite existing functions
+  
+- Argument order matters
+  - `tidyverse` assumes data input comes first
+  - detail arguments come later (e.g. `na.rm = TRUE`)
+
+- Make output clear and obvious
+
+The Tidyverse style guide is here:
+http://style.tidyverse.org/
+
+---
+
+# So... what about those repeats? 
+
+```r
+out &lt;- df
+out$a &lt;- rescale_0_1(df$a)
+out$b &lt;- rescale_0_1(df$b)
+out$c &lt;- rescale_0_1(df$c)
+out$d &lt;- rescale_0_1(df$d)
+out
+```
+The function simplified the call, but we're copying and pasting again. 
+
+🤔
+
+---
+
+# Iterate over a list
+
+For Loop
+
+
+```r
+out &lt;- df #make a copy of df
+for (i in 1:ncol(df)) { # loop through each element
+  out[i] &lt;- rescale_0_1(df[[i]]) #apply function and store in out[]
+}
+out
+```
+
+```
+##            a         b         c         d
+## 1  0.8400734 0.9507664 1.0000000 1.0000000
+## 2  0.7915186 0.6173473 0.4914426 0.1723300
+## 3  0.0000000 0.4819506 0.5074896 0.8082126
+## 4  1.0000000 0.0000000 0.4260247 0.0605588
+## 5  0.3065831 0.5778367 0.2392321 0.3879151
+## 6  0.9539471 0.8935948 0.0000000 0.7400604
+## 7  0.6616978 0.8222903 0.3957532 0.3156326
+## 8  0.8060294 0.6589044 0.2782888 0.6458119
+## 9  0.6265262 0.7095200 0.3968583 0.0000000
+## 10 0.9934145 1.0000000 0.6382199 0.7130856
+```
+
+
+---
+# seq_along
+`seq_along()` generates the 1:end for you and handles 0 length 
+
+
+```r
+out &lt;- df #make a copy to store scaled data
+for (i in seq_along(df)) {
+  out[i] &lt;- rescale_0_1(df[[i]])
+}
+out
+```
+
+```
+##            a         b         c         d
+## 1  0.8400734 0.9507664 1.0000000 1.0000000
+## 2  0.7915186 0.6173473 0.4914426 0.1723300
+## 3  0.0000000 0.4819506 0.5074896 0.8082126
+## 4  1.0000000 0.0000000 0.4260247 0.0605588
+## 5  0.3065831 0.5778367 0.2392321 0.3879151
+## 6  0.9539471 0.8935948 0.0000000 0.7400604
+## 7  0.6616978 0.8222903 0.3957532 0.3156326
+## 8  0.8060294 0.6589044 0.2782888 0.6458119
+## 9  0.6265262 0.7095200 0.3968583 0.0000000
+## 10 0.9934145 1.0000000 0.6382199 0.7130856
+```
+
+
+---
+
+# Can we do better?
+
+Iterate over df with `purrr::map`
+
+
+```r
+map(df, function(x) rescale_0_1(x))#map over the columns in df
+```
+
+```
+## $a
+##  [1] 0.8400734 0.7915186 0.0000000 1.0000000 0.3065831 0.9539471 0.6616978
+##  [8] 0.8060294 0.6265262 0.9934145
+## 
+## $b
+##  [1] 0.9507664 0.6173473 0.4819506 0.0000000 0.5778367 0.8935948 0.8222903
+##  [8] 0.6589044 0.7095200 1.0000000
+## 
+## $c
+##  [1] 1.0000000 0.4914426 0.5074896 0.4260247 0.2392321 0.0000000 0.3957532
+##  [8] 0.2782888 0.3968583 0.6382199
+## 
+## $d
+##  [1] 1.0000000 0.1723300 0.8082126 0.0605588 0.3879151 0.7400604 0.3156326
+##  [8] 0.6458119 0.0000000 0.7130856
+```
+
+---
+
+class: inverse, center, middle
+
+![](figures/tim-and-eric-mind-blown.gif)
+
+---
+# purrr::map(.x, .f, ...)
+
+`map` iterates over a list and returns a list
+  - `.x` list (or vector) to iterate over
+  - `.f` function to apply over that list
+  - `...` things that get passed from map() to .f
+
+
+```r
+l = list(a=1:10, b = 10:100)
+map(l, function(x) mean(x, na.rm = TRUE))
+```
+
+```
+## $a
+## [1] 5.5
+## 
+## $b
+## [1] 55
+```
+
+The names `.x` and `.f` are intentionally weird because they are unlikely to collide with other names passed through `...` to `.f`.
+---
+
+# more maps
+
+Other types of `map` that return specific things
+  - `map` list
+  - `map_lgl` logical 
+  - `map_int` integer 
+  - `map_dbl` double 
+  - `map_chr` character 
+  - `map_dfc` bind as columns into df
+  - `map_dfr` bind as rows into df
+---
+
+# Type Safe
+
+These specialized map functions are "type-safe" and will fail with incorrect return type.
+
+
+```r
+l = list(a=1:10, b = 10:100)
+map_dbl(l, function(x) mean(x, na.rm = TRUE))
+```
+
+```
+##    a    b 
+##  5.5 55.0
+```
+
+```r
+map_chr(l, function(x) mean(x, na.rm = TRUE))
+```
+
+```
+##           a           b 
+##  "5.500000" "55.000000"
+```
+
+
+```r
+map_lgl(l, function(x) mean(x, na.rm = TRUE))
+```
+
+```
+## Error: Can't coerce element 1 from a double to a logical
+```
+
+---
+
+# Assemble df from list output
+
+
+```r
+map(df, function(x) rescale_0_1(x)) # map over df return list
+```
+Less useful if you want to do something else with it.
+
+
+```r
+map_dfc(df, function(x) rescale_0_1(x)) # map df return tibble
+```
+
+```
+## # A tibble: 10 x 4
+##            a         b         c         d
+##        &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;
+##  1 0.8400734 0.9507664 1.0000000 1.0000000
+##  2 0.7915186 0.6173473 0.4914426 0.1723300
+##  3 0.0000000 0.4819506 0.5074896 0.8082126
+##  4 1.0000000 0.0000000 0.4260247 0.0605588
+##  5 0.3065831 0.5778367 0.2392321 0.3879151
+##  6 0.9539471 0.8935948 0.0000000 0.7400604
+##  7 0.6616978 0.8222903 0.3957532 0.3156326
+##  8 0.8060294 0.6589044 0.2782888 0.6458119
+##  9 0.6265262 0.7095200 0.3968583 0.0000000
+## 10 0.9934145 1.0000000 0.6382199 0.7130856
+```
+
+---
+
+# Alternate function calls for map/walk()
+
+Full anonymous function definition
+
+```r
+l = list(a=1:10, b = 10:100)
+map_dbl(l, function(x) mean(x, na.rm = TRUE))
+```
+Function name only and pass parameters through `...`
+
+```r
+map_dbl(l, mean, na.rm = TRUE)
+```
+As a formula, object is passed as `.` or `.x`
+
+```r
+map_dbl(l, ~mean(., na.rm = TRUE))
+```
+
+```r
+map_dbl(l, ~mean(.x, na.rm = TRUE))
+```
+
+```
+##    a    b 
+##  5.5 55.0
+```
+
+All return the same thing and you'll see all three when looking for help.
+
+---
+
+class: inverse, center, middle
+
+# Notebook Time
+Map examples
+
+---
+
+# `map2` and `pmap`
+
+What if you need elements from more than one list? 
+
+For two lists use map2
+
+  - `map2(.x, .y, .f, ...)`
+
+For more, use pmap
+
+  - `pmap(.l, .f, ...)`
+
+
+Let's see some examples.
+
+---
+
+class: inverse, center, middle
+
+# Notebook Time
+`map2` and `pmap` examples
+
+
+---
+
+# `walk` family
+
+`walk(.x, .f, ...)`
+`walk2(.x, .y, .f, ...)`
+`pwalk(.l, .f, ...)`
+
+`walk()`, `walk2()`, and `pwalk()` have the same structure as their `map()` relatives, but .f is called for its side effects and .x is returned on the other side. 
+
+Returning .x means you can use it in further analysis in the same thread (`%&gt;%`). 
+
+I have personally not had success doing this. 
+
+---
+
+class: inverse, center, middle
+
+# Notebook Time
+`walk` examples
+
+
+---
+
+class: inverse
+
+# Thanks to:
+  - Package
+    - Hadley Wickham
+    - Lionel Henry
+  - Tutorials
+    - Package Devs
+    - Charlotte Wickham
+    - Jenny Bryan
+    - Garrett Grolemund
+  - Advice
+    - Noam Ross
+    - Steph Locke
+    - Jennifer Thompson
+
+
+--
+  - You for listening
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {window.dispatchEvent(new Event('resize'));});
+(function() {var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler"); if (!r) return; s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }"; d.head.appendChild(s);})();</script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+  }
+});
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
