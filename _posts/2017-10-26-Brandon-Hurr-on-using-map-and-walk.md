@@ -1,5 +1,5 @@
 ---
-title: "Brandon Hurr on using the <i>map</i> & <i>walk<i/> functions in <b>purrr</b>"
+title: "Brandon Hurr on using the map & walk functions in the purrr package"
 author: "Brandon Hurr"
 tags: [D-RUG, R, presentations, map, purrr]
 date: "17-10-26 10:00:00"
