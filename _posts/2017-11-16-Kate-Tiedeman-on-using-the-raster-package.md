@@ -16,10 +16,10 @@ We recorded the presentation and it can be viewed on youtube here:
 
 ## Materials
 
- - Source script is available for download [Here](../pres_data/Raster.R)
+ - Source script is available for download **[here](../../pres_data/Raster.R)**
  - Data used in Kate's presentation is available for download [here](https://github.com/wildintellect/MaptimeDavis/blob/master/Rspatial/data.zip). Zipped this file is approx 70MB. 
 
-### Additional Resources
+## Additional Resources
 
 Checkout a few of the many resources that are available for raster/projections, etc:  
 
