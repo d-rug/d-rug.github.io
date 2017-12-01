@@ -8,7 +8,7 @@ layout: post
 
 **_Ryan Peek gave a tutorial about the spatial package `sf`. Check out the associated website with the tutorial and see the video for more info:_**
 
- - ryanpeek.github.io/mapping_in_R
+ - [https://ryanpeek.github.io/mapping_in_R/](https://ryanpeek.github.io/mapping_in_R/)
  
 ## Video of Presentation
 
