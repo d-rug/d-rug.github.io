@@ -16,7 +16,7 @@ Join the group listserv [here](https://groups.google.com/d/forum/davis-rug). The
 
 ## Weekly Work Sessions
 
-Starting *Fall Quarter 2017 (from Sept. 28 onward)* our weekly work sessions will be be held **THURSDAYS from 10am-12pm in 360 Shields** (the Data Science Space on the third floor of Shields Library). Stay tuned on the listserv for updates on presentations/workshops this quarter.
+Starting *Winter Quarter 2018 (from Jan 8 onward)* our weekly work sessions will be be held **MONDAYS from 10am-12pm in 360 Shields** (the Data Science Space on the third floor of Shields Library). Stay tuned on the listserv for updates on presentations/workshops this quarter.
 
 This is the core purpose of DRUG.  We have weekly, 2-hour work sessions where people bring their computers to work on their own projects, and ask each other questions as needed.  We have no TAs - just mutual support in R, statistics, and related topics.  Group members sometimes give short presentations on R methods and best practices or to get feedback on their projects.
 
