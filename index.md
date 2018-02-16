@@ -23,7 +23,7 @@ This is the core purpose of DRUG.  We have weekly, 2-hour work sessions where pe
 *A map to the DSI in Shields Library*
 ![](images/R_DSI_map_v2.png)
 
-***For real-time updates on weekly work sessions and presentations, follow  [@riverpeek](http://www.twitter.com/riverpeek/) or [@Voovarb](http://www.twitter.com/Voovarb/) on Twitter***
+***For real-time updates on weekly work sessions and presentations, follow  [@riverpeek](http://www.twitter.com/riverpeek/), or [@ReiterTaylor](http://www.twitter.com/ReiterTaylor/) on Twitter***
 
 ## Use the resources on this site
 
