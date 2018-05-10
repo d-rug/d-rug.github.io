@@ -8,7 +8,7 @@ title: Davis R Users Group
 
 ***"The sweetest R-help group this side of the Mississippi."***
 
-Welcome to the Davis R Users' Group (D-RUG)!  We are a community of R-Users at UC Davis who support each other in using R for science and research. Our focus is providing a space for beginning and intermediate users to learn from each other.
+Welcome to the Davis R Users' Group (D-RUG)!  We are a community of R-Users at UC Davis who support each other in using R for science and research. Our focus is providing a space for beginning and intermediate users to learn from each other. We have weekly, 2-hour work sessions where people bring their computers to work on their own projects, and ask each other questions as needed.  We have no TAs - just mutual support from folks working on/in R and related topics.  Group members sometimes give short presentations on R methods and best practices or to get feedback on their projects.
 
 ## Join the Mailing List
 
@@ -16,9 +16,7 @@ Join the group listserv [here](https://groups.google.com/d/forum/davis-rug). The
 
 ## Weekly Work Sessions
 
-Starting *Winter Quarter 2018 (from Jan 8 onward)* our weekly work sessions will be be held **MONDAYS from 10am-12pm in 360 Shields** (the Data Science Space on the third floor of Shields Library). Stay tuned on the listserv for updates on presentations/workshops this quarter.
-
-This is the core purpose of DRUG.  We have weekly, 2-hour work sessions where people bring their computers to work on their own projects, and ask each other questions as needed.  We have no TAs - just mutual support in R, statistics, and related topics.  Group members sometimes give short presentations on R methods and best practices or to get feedback on their projects.
+ - **Spring Quarter 2018**: **MONDAYS from 10am-12pm in 360 Shields** (the Data Science Space on the third floor of Shields Library). 
 
 *A map to the DSI in Shields Library*
 ![](images/R_DSI_map_v2.png)
