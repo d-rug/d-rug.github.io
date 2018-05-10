@@ -25,8 +25,7 @@ Join the group listserv [here](https://groups.google.com/d/forum/davis-rug). The
 
 ## Use the resources on this site
 
-We've compiled a list of resources to help you get started using R and find answers to your questions.  Click on the "Getting Started" or "Past Presentation" tabs above to check them out.
-
+We've compiled a list of resources to help you get started using R and find answers to your questions.  Click on the "[Getting Started](https://d-rug.github.io/getting-started.html)" or "[Past Presentations](https://d-rug.github.io/pastpresentations/)" tabs above to check them out.
 
 
 </section>
