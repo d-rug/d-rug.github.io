@@ -16,7 +16,7 @@ Join the group listserv [here](https://groups.google.com/d/forum/davis-rug). The
 
 ## Weekly Work Sessions
 
- - **Summer 2018**: Session will be held on an ad hoc. We will announce them on the listserve ahead of time, and they will be held in 360 Shields Library (the Data Science Space on the third floor of Shields Library). 
+ - **Summer 2018**: Session will be held ad hoc. We will announce them on the listserve ahead of time, and they will be held in 360 Shields Library (the Data Science Space on the third floor of Shields Library). 
 
 *A map to the DSI in Shields Library*
 ![](images/R_DSI_map_v2.png)
