@@ -8,11 +8,11 @@ title: Davis R Users Group
 
 ***"The sweetest R-help group this side of the Mississippi."***
 
-Welcome to the Davis R Users' Group (D-RUG)!  We are a community of R-Users at UC Davis who support each other in using R for science and research. Our focus is providing a space for beginning and intermediate users to learn from each other. We have weekly, 2-hour work sessions where people bring their computers to work on their own projects, and ask each other questions as needed.  We have no TAs - just mutual support from folks working on/in R and related topics.  Group members sometimes give short presentations on R methods and best practices or to get feedback on their projects.
+Welcome to the Davis R Users' Group (D-RUG)!  We are a community of R-Users at UC Davis who support each other in using [R](https://cran.r-project.org/) for science and research. Our focus is providing a space for beginning and intermediate users to learn from each other. We have weekly, 2-hour work sessions where people bring their computers to work on their own projects, and ask each other questions as needed.  We have no TAs - just mutual support from folks working on/in R and related topics.  Group members sometimes give short presentations on R methods and best practices or to get feedback on their projects.
 
 ## Join the Mailing List
 
-Join the group listserv [here](https://groups.google.com/d/forum/davis-rug). The mailing list is an online supplement to our in-person work sessions, and a friendly place to post R-related questions.
+**Join the group listserv [here](https://groups.google.com/d/forum/davis-rug)**. The mailing list is an online supplement to our in-person work sessions, and a friendly place to post R-related questions.
 
 ## Weekly Work Sessions
 
