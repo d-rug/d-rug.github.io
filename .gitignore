@@ -1,4 +1,4 @@
-.Rhistory
+*.Rhistory
 .DS_Store
 .bundle
 .sass-cache
