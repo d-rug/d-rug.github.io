@@ -16,7 +16,7 @@ Welcome to the Davis R Users' Group (D-RUG)!  We are a community of R-Users at U
 
 ## Weekly Work Sessions
 
- - **Fall Quarter 2018**: We'll be meeting on *Wednesday's from 10--12pm* in 360 Shields Library (the Data Science Space on the third floor of Shields Library). Please come join us!
+ - **Winter 2019**: We'll be meeting on *Tuesday's from 12--1:50pm* in 360 Shields Library (the Data Science Space on the third floor of Shields Library). Please come join us!
 
 *A map to the DSI in Shields Library*
 ![](images/R_DSI_map_v2.png)
