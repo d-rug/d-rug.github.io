@@ -1,5 +1,5 @@
 ---
-title: "Ryan Peek: Using the aggiedown package writing your dissertation"
+title: "Ryan Peek: Using the aggiedown package to write your dissertation"
 author: "D-RUG"
 tags: [D-RUG, R, presentations, aggiedown]
 date: "19-02-12 12:00:00"
