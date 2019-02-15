@@ -14,8 +14,7 @@ layout: post
 
 ## Slides:
 
-<iframe src="images/20190214/aggiedown_demo.html"
-frameborder="0" height="500" width="650"></iframe>
+<iframe src="images/20190214/aggiedown_demo.html" style="width: 100%; height: 400px; border: 0"></iframe>
 
  - [*Fullscreen Slides*](images/20190214/aggiedown_demo.html)
 
