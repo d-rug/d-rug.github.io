@@ -2,7 +2,7 @@
 title: "Ryan Peek: Using the aggiedown package writing your dissertation"
 author: "D-RUG"
 tags: [D-RUG, R, presentations, aggiedown]
-date: "19-02-15 12:00:00"
+date: "19-02-12 12:00:00"
 layout: post
 ---
 
@@ -14,9 +14,9 @@ layout: post
 
 ## Slides:
 
-<iframe src="images/20190214/aggiedown_demo.html" style="width: 100%; height: 400px; border: 0"></iframe>
+<iframe src="../../images/20190214/aggiedown_demo.html" style="width: 600px; height: 400px; border: 0"></iframe>
 
- - [*Fullscreen Slides*](images/20190214/aggiedown_demo.html)
+ - [*Fullscreen Slides*](../../images/20190214/aggiedown_demo.html)
 
 ## Video of Presentation
 
