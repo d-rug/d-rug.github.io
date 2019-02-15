@@ -6,7 +6,7 @@ date: "19-02-15"
 layout: post
 ---
 
- > **_Ryan spoke about using the [`aggiedown`](https://github.com/ryanpeek/aggiedown) package to write your dissertation using Rmarkdown, and create an officially formatted (according to UC Davis) pdf!_**
+**_Ryan spoke about using the [`aggiedown`](https://github.com/ryanpeek/aggiedown) package to write your dissertation using Rmarkdown, and create an officially formatted (according to UC Davis) pdf!_**
 
 ## Overview:
 
@@ -15,7 +15,7 @@ layout: post
 ## Slides:
 
 <iframe src="images/20190214/aggiedown_demo.html"
-frameborder="0" height="500" width="650" allowfullscreen="true"></iframe>
+frameborder="0" height="500" width="650"></iframe>
 
  - [*Fullscreen Slides*](images/20190214/aggiedown_demo.html)
 
