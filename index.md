@@ -8,7 +8,7 @@ title: Davis R Users Group
 
 ***"The sweetest R-help group this side of the Mississippi."***
 
-Welcome to the Davis R Users' Group (D-RUG)!  We are a community of R-Users at UC Davis who support each other in using [R](https://cran.r-project.org/) for science and research. Our focus is providing a space for beginning and intermediate users to learn from each other. We have weekly, 2-hour work sessions where people bring their computers to work on their own projects, and ask each other questions as needed.  We have no TAs - just mutual support from folks working on/in R and related topics.  Group members sometimes give short presentations on R methods and best practices or to get feedback on their projects.
+Welcome to the Davis R Users' Group (D-RUG)!  We are a community of R-Users at UC Davis who support each other in using [R](https://cran.r-project.org/) for science and research. Our focus is providing a space for beginning and intermediate users to learn from each other. We have weekly, 2-hour work sessions where people bring their computers to work on their own projects, and ask each other questions as needed.  We have no TAs - just mutual support from folks working on/in R and related topics. A group of D-RUG coordinators help organize and schedule worksessions and presentations. We usually have a few presentations each quarter on a wide range of R topics, from methods, best practices, new packages, or simply for folks to get feedback on their projects. Let us know if you're interested!
 
 ## Join the Mailing List
 
@@ -16,12 +16,19 @@ Welcome to the Davis R Users' Group (D-RUG)!  We are a community of R-Users at U
 
 ## Weekly Work Sessions
 
- - **Spring 2019**: We'll be meeting on *Thurstdays from 12:00--2:00pm* in 360 Shields Library (the Data Science Space on the third floor of Shields Library). Please come join us, and check the [**calendar**](https://d-rug.github.io/calendar.html) for potential upcoming presentations and workshops!
+ - **Spring 2019**: We'll be meeting on *Thursdays from 12:00--2:00pm* in 360 Shields Library (the Data Science Space on the third floor of Shields Library, [see these directions and map](http://dsi.ucdavis.edu/directions.html). Please come join us, and check the [**calendar**](https://d-rug.github.io/calendar.html) for potential upcoming presentations and workshops!
+ - *For real-time updates on weekly work sessions and presentations on Twitter, follow:*
+    - [@ReiterTaylor](http://www.twitter.com/ReiterTaylor/)
+    - [@riverpeek](https://twitter.com/riverpeek)
 
-*A map to the DSI in Shields Library*
-![](images/R_DSI_map_v2.png)
+### D-RUG Coordinators
 
-***For real-time updates on weekly work sessions and presentations, follow  [@riverpeek](http://www.twitter.com/riverpeek/), or [@ReiterTaylor](http://www.twitter.com/ReiterTaylor/) on Twitter***
+Our current D-RUG Coordinators are:
+
+ - Ryan Peek [email](mailto:rapeek@ucdavis.edu) 
+ - Taylor Reiter [email](mailto:tereiter@ucdavis.edu) 
+ - Martha Wohlfeil [email](mailto:mwohlfeil@ucdavis.edu)
+ - Michael Culshaw-Maurer [email](mailto:mjculshawmaurer@ucdavis.edu)
 
 ## Use the resources on this site
 
