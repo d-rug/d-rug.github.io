@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Davis R-Users Group Calendar
+title: D-RUG Calendar
 permalink: /calendar.html
 calendar: true
 ---

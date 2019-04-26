@@ -28,7 +28,7 @@ markdown: kramdown
 
 destination: _site
 
-gems:
+plugins:
  - jekyll-sitemap
 #  - jekyll-feed
 
