@@ -1,10 +1,11 @@
 ---
 layout: page
-title: "Code of Conduct"
+title: "D-RUG Code of Conduct"
 permalink: /code-of-conduct.html
 ---
 
 <article class="row" markdown="1">
+<section class="small-12 large-8 columns page-content" markdown="1">
 
 **Davis R Users Group (D-RUG) Code of Conduct**
 
@@ -51,4 +52,5 @@ This code of conduct is an adaptation of the one used by the Carpentries and is 
 
 For more information about the Code of Conduct related to Data Carpentry, please see their [website](http://www.datacarpentry.org/code-of-conduct/).
 
+</section>
 </article>
