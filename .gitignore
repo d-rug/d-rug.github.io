@@ -1,6 +1,7 @@
 *.Rproj.user
 .DS_Store
 *.Rhistory
+.Rhistory
 .bundle
 .sass-cache
 _site
@@ -8,5 +9,4 @@ bin
 vendor/ruby
 Gemfile.lock
 images/image_optim_cache.yml
-
 .Rproj.user
