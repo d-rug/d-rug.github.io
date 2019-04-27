@@ -1,13 +1,11 @@
 ---
 layout: page
-title: "D-RUG Code of Conduct"
+title: "Davis R-Users Group Code of Conduct"
 permalink: /code-of-conduct.html
 ---
 
 <article class="row" markdown="1">
 <section class="small-12 large-8 columns page-content" markdown="1">
-
-**Davis R Users Group (D-RUG) Code of Conduct**
 
 We are dedicated to providing a welcoming and supportive environment for all people, regardless of background or identity. However, we recognise that some groups in our community are subject to historical and ongoing discrimination, and may be vulnerable or disadvantaged. Membership in such a specific group can be on the basis of characteristics such as gender, sexual orientation, disability, physical appearance, body size, race, nationality, sex, colour, ethnic or social origin, pregnancy, citizenship, familial status, veteran status, genetic information, religion or belief, political or any other opinion, membership of a national minority, property, birth, age, or choice of text editor. We do not tolerate harassment of participants on the basis of these categories, or for any other reason.
 
@@ -26,7 +24,7 @@ Behaviour not explicitly mentioned above may still constitute harassment. The li
 
 All listserv or workgroup interactions should be professional regardless of location, thus harassment is prohibited whether it occurs on- or offline, and the same standards apply to both.
 
-## Enforcement
+## **Enforcement**
 
 Community members asked to stop any harassing behavior are expected to comply immediately, and enforcement of the Code of Conduct will be respectfully implemented.
 
@@ -37,7 +35,7 @@ The following steps may be taken depending on the behavior and occurrence:
 - Temporary ban from attending weekly D-RUG workgroup meetings
 - Permanent ban from all D-RUG activities
 
-## Reporting
+## **Reporting**
 
 If you are being harassed, notice that someone else is being harassed, or have any other concerns, the following options exist for communicating this:
 
@@ -48,9 +46,18 @@ If you are being harassed, notice that someone else is being harassed, or have a
 
 Thank you for helping make this a welcoming, friendly community for all.
 
+## **Additional Resources**
+
+For additional info or help specific to UC Davis, please check out this helpful flow chart made by Erin Flynn for the [Aggie Brickyard](https://aggiebrickyard.github.io/) (Vol III, 2016).
+
+<iframe src="images/TAB_FQ2016_safe_space_flowchart.pdf" width="100%" height="500em"></iframe>
+
+## **References**
+
 This code of conduct is an adaptation of the one used by the Carpentries and is a modified version of that used by PyCon, which in turn is forked from a template written by the Ada Initiative and hosted on the Geek Feminism Wiki. Contributors to this document: Adam Obeng, Aleksandra Pawlik, Bill Mills, Carol Willing, Erin Becker, Hilmar Lapp, Kara Woo, Karin Lagesen, Pauline Barmby, Sheila Miguez, Simon Waldman, Tracy Teal.
 
 For more information about the Code of Conduct related to Data Carpentry, please see their [website](http://www.datacarpentry.org/code-of-conduct/).
+
 
 </section>
 </article>
