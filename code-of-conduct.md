@@ -58,6 +58,10 @@ This code of conduct is an adaptation of the one used by the Carpentries and is 
 
 For more information about the Code of Conduct related to Data Carpentry, please see their [website](http://www.datacarpentry.org/code-of-conduct/).
 
+----
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+
 
 </section>
 </article>
