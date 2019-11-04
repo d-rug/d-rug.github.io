@@ -10,6 +10,6 @@ layout: post
 
 ## Slides:
 
-<iframe src="../../images/20191017/evan_linear_models.html" style="width: 1200px; height: 800px; border: 0"></iframe>
+<iframe src="../../images/20191017/evan_linear_models.html" style="width: 800px; height: 600px; border: 0"></iframe>
 
  - [*Fullscreen Slides*](../../images/20191017/evan_linear_models.html)
