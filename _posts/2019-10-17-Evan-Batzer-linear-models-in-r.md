@@ -13,3 +13,5 @@ layout: post
 <iframe src="../../images/20191017/evan_linear_models.html" style="width: 800px; height: 600px; border: 0"></iframe>
 
  - [*Fullscreen Slides*](../../images/20191017/evan_linear_models.html)
+
+[Link to Youtube livestream video](https://youtu.be/9pZXq6yCd3c)
