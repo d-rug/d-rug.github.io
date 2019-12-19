@@ -1,5 +1,5 @@
 ---
-title: "Will Hemstrom: Writing Packages in R""
+title: "Will Hemstrom: Writing Packages in R"
 author: "D-RUG"
 tags: [D-RUG, R, presentations, linear models]
 date: "19-11-14 12:00:00"
