@@ -1,5 +1,5 @@
 ---
-title: "Taylor Reiter on Intro to dplyr""
+title: "Taylor Reiter on Intro to dplyr"
 author: "D-RUG"
 tags: [D-RUG, R, presentations, linear models]
 date: "19-11-07 12:00:00"
