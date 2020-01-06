@@ -16,7 +16,7 @@ Welcome to the Davis R Users' Group (D-RUG)!  We are a community of R-Users at U
 
 ## Weekly Work Sessions
 
- - **Fall 2019**: We'll be meeting on *Thursdays from 11:00AM--1:00PM* in 360 Shields Library (the Data Lab Space on the third floor of Shields Library, [see these directions and map](http://ds.lib.ucdavis.edu/dsl-location/). Please come join us, and check the [**calendar**](https://d-rug.github.io/calendar.html) for potential upcoming presentations and workshops!
+ - **Winter 2020**: We'll be meeting on *Thursdays from 10:00AM--12:00PM* in 360 Shields Library (the Data Lab Space on the third floor of Shields Library, [see these directions and map](http://ds.lib.ucdavis.edu/dsl-location/). Please come join us, and check the [**calendar**](https://d-rug.github.io/calendar.html) for potential upcoming presentations and workshops!
  - *For real-time updates on weekly work sessions and presentations on Twitter, follow:*
     - [@ReiterTaylor](http://www.twitter.com/ReiterTaylor/)
     - [@riverpeek](https://twitter.com/riverpeek)
