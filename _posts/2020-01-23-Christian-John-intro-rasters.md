@@ -2,7 +2,7 @@
 title: "Christian John on Intro to Raster Data in R"
 author: "D-RUG"
 tags: [D-RUG, R, presentations, geospatial]
-date: "20-1-23 12:00:00"
+date: "2020-01-23 12:00:00"
 layout: post
 ---
 
