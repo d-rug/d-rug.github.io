@@ -18,8 +18,8 @@
 
 - title: "links"
   external-subcategories:
-    - subtitle: "Davis Data Science Initiative"
-      subhref: "http://datascience.ucdavis.edu/"
+    - subtitle: "Davis Data Lab"
+      subhref: "https://datalab.ucdavis.edu/"
     - subtitle: "D-RUG-ers on Twitter"
       subhref: "http://twitter.com/Voovarb/lists/d-rug/members"
     - subtitle: "Join our Mailing List"
