@@ -10,7 +10,7 @@ title: Davis R Users Group
 
 Welcome to the Davis R Users' Group (D-RUG)!  We are a community of R-Users at UC Davis who support each other in using [R](https://cran.r-project.org/) for science and research. Our focus is providing a space for beginning and intermediate users to learn from each other. 
 
-Following current social distancing guidelines, we have weekly, online 2-hour work sessions every Thursday from 10-12pm. Please see our online forum/discourse site ([https://d-rug.discourse.group/](https://d-rug.discourse.group/), it's a friendly place to post R-related questions, or search for ones that have already been asked.
+Following current social distancing guidelines, we have weekly, online 2-hour work sessions every Thursday from 10-12pm. Please see our online forum/discourse site (<a href="https://d-rug.discourse.group/" target="_blank">Discourse</a>), it's a friendly place to post R-related questions, or search for ones that have already been asked.
 
 We have no TAs - just mutual support from folks working on/in R and related topics. A group of D-RUG coordinators help organize and schedule worksessions and presentations. We usually have a few presentations each quarter on a wide range of R topics, from methods, best practices, new packages, or simply for folks to get feedback on their projects. Let us know if you're interested!
 
