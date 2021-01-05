@@ -30,16 +30,15 @@ We have no TAs - just mutual support from folks working on/in R and related topi
     - [@riverpeek](https://twitter.com/riverpeek)
     - [@MCulshawMaurer](https://twitter.com/MCulshawMaurer)
     - [@JepsonNomad](https://twitter.com/JepsonNomad)
-    - [@ReiterTaylor](http://www.twitter.com/ReiterTaylor/)
 
 ### D-RUG Coordinators
 
 Our current D-RUG Coordinators are:
 
  - Ryan Peek [email](mailto:rapeek@ucdavis.edu) 
- - Taylor Reiter [email](mailto:tereiter@ucdavis.edu) 
  - Martha Wohlfeil [email](mailto:mwohlfeil@ucdavis.edu)
  - Michael Culshaw-Maurer [email](mailto:mjculshawmaurer@ucdavis.edu)
+ - Christian John [email](cjohn@ucdavis.edu)
 
 ## Use the resources on this site
 

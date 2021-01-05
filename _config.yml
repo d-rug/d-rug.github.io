@@ -8,7 +8,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Website for the Davis R Users Group
 
 #baseurl: 
-url: https:/d-rug.github.io/
+url: https://d-rug.github.io/
 
 header: no
 header_sm: images/banner-small.jpg
