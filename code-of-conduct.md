@@ -41,8 +41,8 @@ If you are being harassed, notice that someone else is being harassed, or have a
 
 - Contact any of the Current D-RUG Coordinators (listed [here](https://d-rug.github.io/))
 - You may also contact the following resources, but be aware they are **_Mandatory Reporters_**:
-  - Pamela, the [DSI Academic Coordinator](http://dsi.ucdavis.edu/administration.html)
-  - The UC [Davis ombuds office](http://ombuds.ucdavis.edu/)
+  - Pamela, the [Data Lab Coordinator](https://datalab.ucdavis.edu/staff/)
+  - The [UC Davis ombuds office](http://ombuds.ucdavis.edu/)
 
 Thank you for helping make this a welcoming, friendly community for all.
 
