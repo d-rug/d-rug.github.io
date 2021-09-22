@@ -20,7 +20,7 @@ We have no TAs - just mutual support from folks working on/in R and related topi
 
 ## Weekly Work Sessions
 
- - **Currently we'll be online on *Tuesdays from 10:00AM--12:00PM* while under social distancing guidelines/shelter in place.**
+ - **Welcome back to hybrid in-person D-RUG! *Wednesdays from 10:00AM--12:00PM* in the DataLab classroom (360 Shields Library).**
  
  When the ability to meet in person is an option, we'll likely be in 360 Shields Library (the Data Lab Space on the third floor of Shields Library, [see these directions and map](http://ds.lib.ucdavis.edu/dsl-location/). 
  
