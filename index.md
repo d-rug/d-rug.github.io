@@ -20,7 +20,11 @@ We have no TAs - just mutual support from folks working on/in R and related topi
 
 ## Weekly Work Sessions
 
+<<<<<<< HEAD
  - **Currently we'll be online or in person on _Wednesdays from 10:00AM--12:00PM_ **
+=======
+ - **Welcome back to hybrid in-person D-RUG! *Wednesdays from 10:00AM--12:00PM* in the DataLab classroom (360 Shields Library).**
+>>>>>>> b9f9f61443a8736ebf165bd9c08503e82c596b7e
  
  If you would like to meet in person, we will be at 360 Shields Library (the Data Lab Space on the third floor of Shields Library, [see these directions and map](http://ds.lib.ucdavis.edu/dsl-location/). We will be following all UC Davis protocols, please see [Campus Ready](https://campusready.ucdavis.edu) for more details.
  
