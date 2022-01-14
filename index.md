@@ -20,9 +20,9 @@ We have no TAs - just mutual support from folks working on/in R and related topi
 
 ## Weekly Work Sessions
 
- - **Welcome back to hybrid in-person D-RUG! *Wednesdays from 10:00AM--12:00PM* in the DataLab classroom (360 Shields Library).**
+ - **We're back to Zoom-only meetings until UC Davis resumes in-person instruction. *Wednesdays from 10:00AM--12:00PM* **
 
- If you would like to meet in person, we will be at 360 Shields Library (the Data Lab Space on the third floor of Shields Library, [see these directions and map](http://ds.lib.ucdavis.edu/dsl-location/). We will be following all UC Davis protocols, please see [Campus Ready](https://campusready.ucdavis.edu) for more details.
+ Once UC Davis re-opens for in-person instruction, we will have hybrid meetings via Zoom and in-person at 360 Shields Library (the Data Lab Space on the third floor of Shields Library, [see these directions and map](http://ds.lib.ucdavis.edu/dsl-location/). We will be following all UC Davis protocols, please see [Campus Ready](https://campusready.ucdavis.edu) for more details.
  
 Please come join us, and check the [**calendar**](https://d-rug.github.io/calendar.html) for potential upcoming presentations and workshops!
  - *For real-time updates on weekly work sessions and presentations on Twitter, follow current coordinators:*
