@@ -22,6 +22,8 @@ We have no TAs - just mutual support from folks working on/in R and related topi
 
  - **We're back to Zoom-only meetings until UC Davis resumes in-person instruction. *Wednesdays from 10:00AM--12:00PM* **
 
+ **Join the group listserv [here](https://groups.google.com/d/forum/davis-rug) to get the Zoom link and weekly reminders.**
+    
  Once UC Davis re-opens for in-person instruction, we will have hybrid meetings via Zoom and in-person at 360 Shields Library (the Data Lab Space on the third floor of Shields Library, [see these directions and map](http://ds.lib.ucdavis.edu/dsl-location/). We will be following all UC Davis protocols, please see [Campus Ready](https://campusready.ucdavis.edu) for more details.
  
 Please come join us, and check the [**calendar**](https://d-rug.github.io/calendar.html) for potential upcoming presentations and workshops!
