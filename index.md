@@ -20,7 +20,7 @@ We have no TAs - just mutual support from folks working on/in R and related topi
 
 ## Weekly Work Sessions
 
- - **We're back to Zoom-only meetings until UC Davis resumes in-person instruction. *Wednesdays from 10:00AM--12:00PM* **
+ - **D-RUG meetings will be in-person starting in the first week of the Fall 2022 quarter. While we intend to prioritize in-person attendance, there will be a Zoom link in the weekly announcements for people who wish to join remotely. *Wednesdays from 10:00AM--12:00PM* **
 
  **Join the group listserv [here](https://groups.google.com/d/forum/davis-rug) to get the Zoom link and weekly reminders.**
     
@@ -28,7 +28,6 @@ We have no TAs - just mutual support from folks working on/in R and related topi
  
 Please come join us, and check the [**calendar**](https://d-rug.github.io/calendar.html) for potential upcoming presentations and workshops!
  - *For real-time updates on weekly work sessions and presentations on Twitter, follow current coordinators:*
-    - [@mw_avianecology](https://twitter.com/mw_avianecology)
     - [@riverpeek](https://twitter.com/riverpeek)
     - [@JepsonNomad](https://twitter.com/JepsonNomad)
     - [@caparisek](https://twitter.com/caparisek)
@@ -38,11 +37,14 @@ Please come join us, and check the [**calendar**](https://d-rug.github.io/calend
 Our current D-RUG Coordinators are:
 
  - Ryan Peek [email](mailto:rapeek@ucdavis.edu) 
- - Martha Wohlfeil [email](mailto:mwohlfeil@ucdavis.edu)
  - Christian John [email](cjohn@ucdavis.edu)
  - Wesley Brooks [email](wbrooks@ucdavis.edu)
  - Christine Parisek [email](caparisek@ucdavis.edu)
  - Liza Wood [email](belwood@ucdavis.edu)
+ - Ashley Grupenhoff [email](agrupenhoff@ucdavis.edu)
+ - Tara Pozzi [email](tbpozzi@ucdavis.edu)
+ - Ben Rivera [email](benrivera@ucdavis.edu)
+
 
 If you are interested in helping out, please let us know, any/all are welcome, and we are all volunteers.
 
