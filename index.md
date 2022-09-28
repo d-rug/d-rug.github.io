@@ -50,7 +50,7 @@ If you are interested in helping out, please let us know, any/all are welcome, a
 
 ## Use the resources on this site
 
-We've compiled a list of resources to help you get started using R and find answers to your questions.  Click on the "[Getting Started](https://d-rug.github.io/getting-started.html)" or "[Past Presentations](https://d-rug.github.io/pastpresentations/)" tabs above to check them out.
+We've compiled a list of resources to help you get started using R and find answers to your questions. Our "[Getting Started](https://d-rug.github.io/getting-started.html)" link has some basic info about installing and learning about R. We maintain a question-and-answer forum at the "[Discourse Forum](https://d-rug.discourse.group)" link, and our "[Blog](https://d-rug.github.io/blog/)" is a good resource for the topics that we've discussed in our meetings.
 
 
 </section>

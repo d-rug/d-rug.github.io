@@ -10,19 +10,21 @@
 - title: "r at davis"
   href: "/r-at-davis.html"
 
-- title: "Past Presentations"
-  href: "/pastpresentations/"
+- title: "Blog"
+  href: "/blog/"
 
 - title: "D-RUG Calendar"
   href: "/calendar.html"
 
 - title: "links"
   external-subcategories:
-    - subtitle: "Davis Data Lab"
+    - subtitle: "UC Davis Data Lab"
       subhref: "https://datalab.ucdavis.edu/"
     - subtitle: "D-RUG-ers on Twitter"
-      subhref: "http://twitter.com/Voovarb/lists/d-rug/members"
+      subhref: "https://twitter.com/Voovarb/lists/d-rug/members"
     - subtitle: "Join our Mailing List"
-      subhref: "http://groups.google.com/forum/#!forum/davis-rug"
+      subhref: "https://groups.google.com/forum/#!forum/davis-rug"
+    - subtitle: "Discourse Discussion Forum"
+      subhref: "https://d-rug.discourse.group"
     - subtitle: "See this site on GitHub"
-      subhref: "http://github.com/d-rug/d-rug.github.io"
+      subhref: "https://github.com/d-rug/d-rug.github.io"

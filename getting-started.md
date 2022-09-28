@@ -9,7 +9,7 @@ permalink: /getting-started.html
 
 ### Some tips on getting started:
 
- - Download R [here](http://cran.cs.wwu.edu/)
+ - Download R [here](http://cran.r-project.org/)
  - After you install R, I recommend you install [RStudio](http://www.rstudio.org/).  RStudio is a program that makes R easier to use, and is being widely adopted by both beginning and advanced R users. Importantly, it works across most computer platforms, and has features that make it easy to [share your work](http://rpubs.com/), collaborate, and do [proper version control](http://rstudio.org/docs/version_control/overview).
  - [Google](http://www.google.com) is your first stop for most questions.  You'll most likely reach most of the resources below while searching for your specific question.
  - Our regular R work sessions and [listserv](https://groups.google.com/d/forum/davis-rug) are great places to ask questions, especially if you are not sure what you are looking for.
