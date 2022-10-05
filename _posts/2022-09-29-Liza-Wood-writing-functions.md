@@ -1,7 +1,7 @@
 ---
 title: "Liza Wood: Writing functions and iteration"
 author: "D-RUG"
-tags: [D-RUG, R, presentations, ggplot]
+tags: [D-RUG, R, presentations]
 date: "2022-09-29"
 layout: post
 ---
