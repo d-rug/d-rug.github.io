@@ -1,0 +1,20 @@
+---
+title: "Jesse Schroeder: Animating using for loops and the Magick package"
+author: "D-RUG"
+tags: [D-RUG, R, Magick, animation]
+date: "2022-10-19"
+layout: post
+---
+
+**_Jesse shows us how to create animated gifs in R using for loops and the Magick package_**
+
+[Live Code from presentation as separate script](https://github.com/JesseS1888/Public/blob/main/animation_script_d_rug.R)
+
+Jesse's script shows how to create frame by frame animations in R. The process, in brief:
+
+1. Create example raster image and timeseries data.
+2. Create for loop with each value representing a row from the timeseries data.
+3. Create a temporary dataframe with the raster image data offset by the timeseries data at a given timestamp.
+4. Create plot of a single frame, and save it as the row number (.png).
+5. Use the Magick package to call the saved images and combine them in order as an animation.
+6. Save your animation.
