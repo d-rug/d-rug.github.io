@@ -10,7 +10,7 @@ title: Davis R Users Group
 
 Welcome to the Davis R Users' Group (D-RUG)!  We are a community of R-Users at UC Davis who support each other in using [R](https://cran.r-project.org/) for science and research. Our focus is providing a space for beginning and intermediate users to learn from each other. 
 
-Following current social distancing guidelines, we have weekly, 2-hour work sessions every Wednesday from 10am-12pm. Please see our online forum/discourse site (<a href="https://d-rug.discourse.group/" target="_blank">Discourse</a>), it's a friendly place to post R-related questions, or search for ones that have already been asked.
+Following current social distancing guidelines, we have weekly, 2-hour work sessions every Thursday from 10am-12pm. Please see our online forum/discourse site (<a href="https://d-rug.discourse.group/" target="_blank">Discourse</a>), it's a friendly place to post R-related questions, or search for ones that have already been asked.
 
 We have no TAs - just mutual support from folks working on/in R and related topics. A group of D-RUG coordinators help organize and schedule work sessions and presentations. We usually have a few presentations each quarter on a wide range of R topics, from methods, best practices, new packages, or simply for folks to get feedback on their projects. Let us know if you're interested!
 
@@ -20,7 +20,7 @@ We have no TAs - just mutual support from folks working on/in R and related topi
 
 ## Weekly Work Sessions
 
- - **D-RUG meetings will be in-person starting in the first week of the Fall 2022 quarter. While we intend to prioritize in-person attendance, there will be a Zoom link in the weekly announcements for people who wish to join remotely. *Wednesdays from 10:00AM--12:00PM* **
+ - **D-RUG meetings will be in-person starting in the first week of the Fall 2022 quarter. While we intend to prioritize in-person attendance, there will be a Zoom link in the weekly announcements for people who wish to join remotely. *Thursdays from 10:00AM--12:00PM* **
 
  **Join the group listserv [here](https://groups.google.com/d/forum/davis-rug) to get the Zoom link and weekly reminders.**
     
@@ -36,14 +36,11 @@ Please come join us, and check the [**calendar**](https://d-rug.github.io/calend
 
 Our current D-RUG Coordinators are:
 
- - Ryan Peek [email](mailto:rapeek@ucdavis.edu) 
- - Christian John [email](cjohn@ucdavis.edu)
  - Wesley Brooks [email](wbrooks@ucdavis.edu)
  - Christine Parisek [email](caparisek@ucdavis.edu)
  - Liza Wood [email](belwood@ucdavis.edu)
  - Ashley Grupenhoff [email](agrupenhoff@ucdavis.edu)
  - Tara Pozzi [email](tbpozzi@ucdavis.edu)
- - Ben Rivera [email](benrivera@ucdavis.edu)
 
 
 If you are interested in helping out, please let us know, any/all are welcome, and we are all volunteers.
