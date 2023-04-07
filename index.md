@@ -20,7 +20,7 @@ We have no TAs - just mutual support from folks working on/in R and related topi
 
 ## Weekly Work Sessions
 
- - **D-RUG meetings will be in-person starting in the first week of the Fall 2022 quarter. While we intend to prioritize in-person attendance, there will be a Zoom link in the weekly announcements for people who wish to join remotely. *Thursdays from 10:00AM--12:00PM* **
+ - **D-RUG meetings will be in-person starting in the first week of the Fall 2022 quarter. While we intend to prioritize in-person attendance, there will be a Zoom link in the weekly announcements for people who wish to join remotely. *Thursdays from 12pm--2pm* **
 
  **Join the group listserv [here](https://groups.google.com/d/forum/davis-rug) to get the Zoom link and weekly reminders.**
     
