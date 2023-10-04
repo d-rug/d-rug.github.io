@@ -10,7 +10,7 @@ title: Davis R Users Group
 
 Welcome to the Davis R Users' Group (D-RUG)!  We are a community of R-Users at UC Davis who support each other in using [R](https://cran.r-project.org/) for science and research. Our focus is providing a space for any/all levels to learn from each other. 
 
- - **Currently we have weekly work sessions every Thursday from 12pm-2pm** 
+ - **Currently we have weekly work sessions every Wednesday from 12pm-2pm** 
   - While we intend to prioritize in-person attendance, there will be a Zoom link in the weekly announcements for people who wish to join remotely
   - **Join the group listserv [here](https://groups.google.com/d/forum/davis-rug) to get the Zoom link and weekly reminders**
  - Please see our online forum/discourse site (<a href="https://d-rug.discourse.group/" target="_blank">Discourse</a>), it's a friendly place to post R-related questions, or search for ones that have already been asked!
