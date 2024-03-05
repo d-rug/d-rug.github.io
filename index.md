@@ -10,7 +10,7 @@ title: Davis R Users Group
 
 Welcome to the Davis R Users' Group (D-RUG)!  We are a community of R-Users at UC Davis who support each other in using [R](https://cran.r-project.org/) for science and research. Our focus is providing a space for any/all levels to learn from each other. 
 
- - **Currently we have weekly work sessions every Wednesday from 12pm-2pm** 
+ - **Currently we have weekly work sessions every Wednesday from 10am-12pm** 
   - While we intend to prioritize in-person attendance, there will be a Zoom link in the weekly announcements for people who wish to join remotely
   - **Join the group listserv [here](https://groups.google.com/d/forum/davis-rug) to get the Zoom link and weekly reminders**
  - Please see our online forum/discourse site (<a href="https://d-rug.discourse.group/" target="_blank">Discourse</a>), it's a friendly place to post R-related questions, or search for ones that have already been asked!
@@ -32,10 +32,8 @@ Please come join us, and check the [**calendar**](https://d-rug.github.io/calend
 Our current D-RUG Coordinators are:
 
  - Wesley Brooks [email](wbrooks@ucdavis.edu)
- - Christine Parisek [email](caparisek@ucdavis.edu)
- - Liza Wood [email](belwood@ucdavis.edu)
- - Ashley Grupenhoff [email](agrupenhoff@ucdavis.edu)
  - Tara Pozzi [email](tbpozzi@ucdavis.edu)
+ - Elise Hellwig [email][echellwig@ucdavis.edu]
 
 If you are interested in helping out, please let us know, any/all are welcome, and we are all volunteers.
 
