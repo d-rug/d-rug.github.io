@@ -33,7 +33,7 @@ Our current D-RUG Coordinators are:
 
  - Wesley Brooks [email](wbrooks@ucdavis.edu)
  - Tara Pozzi [email](tbpozzi@ucdavis.edu)
- - Elise Hellwig [email][echellwig@ucdavis.edu]
+ - Elise Hellwig [email](echellwig@ucdavis.edu)
 
 If you are interested in helping out, please let us know, any/all are welcome, and we are all volunteers.
 
